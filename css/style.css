@@ -1,0 +1,360 @@
+/* Body */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 1000px;
+    font-family: Calibri;
+    color: #26474E;
+}
+/* Header */
+header{
+    height: 55px;
+    width: 100%;
+    background-color: #26474E;
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+}
+/* Menu */
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    text-align: right;
+    margin-right: 1%;
+}
+nav ul a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+nav ul li{
+    display: inline-block;
+    padding: 0.7%;
+}
+/* Bannière */
+#forme1{
+    display: inline-block;
+    position: absolute;
+    height: 16vw;
+    width: 31%;
+    background-color: #F27438;
+    z-index: 10;
+    clip-path: polygon(0 0, 0 64%, 50% 0);
+}
+#forme2{
+    display: inline-block;
+    position: absolute;
+    right: 60%;
+    height: 13vw;
+    width: 45%;
+    background-color: #2CCED2;
+    clip-path: polygon(44% 0, 33% 28%, 100% 0);
+}
+#forme3{
+    display: inline-block;
+    position: absolute;
+    left: 33%;
+    height: 6vw;
+    width: 25%;
+    background-color: #F9968B;
+    clip-path: polygon(20% 0%, 85% 0%, 100% 12%, 0 13%);
+}
+#forme4{
+    display: inline-block;
+    position: absolute;
+    right: 12%;
+    height: 10vw;
+    width: 44%;
+    background-color: #76CDCD;
+    clip-path: polygon(89% 0, 14% 0, 100% 34%);
+}
+#forme5{
+    display: inline-block;
+    position: absolute;
+    left: 65%;
+    height: 13vw;
+    width: 35%;
+    background-color: #F27438;
+    z-index: 10;
+    clip-path: polygon(100% 0, 30% 0, 100% 64%);
+}
+#forme6{
+    display: inline-block;
+    position: absolute;
+    bottom: 48%;
+    height: 13vw;
+    width: 35%;
+    background-color: #F9968B;
+    z-index: 1;
+    clip-path: polygon(23% 100%, 0 0, 0 100%);
+}
+#forme7{
+    display: inline-block;
+    position: absolute;
+    left: 65%;
+    bottom: 48%;
+    height: 15vw;
+    width: 35%;
+    z-index: 1;
+    background-color: #2CCED2;
+    clip-path: polygon(100% 100%, 100% 0, 80% 100%);
+}
+#divphoto{
+    position: absolute;
+    left: 14%;
+    width: 180px;
+    top: 18%;
+    height: 180px;
+
+}
+#photo{
+    width: 100%;
+}
+#barre1{
+    height: 50px;
+    width: 100%;
+    background-color: #26474E;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+}
+#barre2{
+    height: 10px;
+    width: 100%;
+    background-color: #F27438;
+    position: relative;
+    top: 40%;
+}
+#texte-banniere{
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    right: 13%;
+    top: 23%;
+}
+#nom{
+    font-size: 2.5vw;
+    font-family: Calibri;
+    color: #26474E;
+    margin: 0;
+}
+#dev-web{
+    font-size: 3.5vw;
+    font-family: Calibri;
+    color: #26474E;
+    margin: 0;
+}
+/* Généralités */
+.contenu{
+    position: absolute;
+    top: 63%;
+    /* padding-left: 50px;
+    padding-right: 50px; */
+}
+.titre{
+    background-color: #2CCED2;
+    text-align: center;
+    width: 44%;
+    margin: auto;
+}
+h3{
+    font-family: Calibri;
+    font-size: 1.5em;
+    padding: 1%;
+    color: #FFFFFF;
+}
+h4{
+    text-align: center;
+    margin-left: 7%;
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    display: inline-block;
+}
+h5,p{
+    margin: 0;
+}
+/* Qui suis-je */
+#qui-suis-je{
+    position: relative;
+    bottom: 100%;
+    margin: auto;
+}
+.texte{
+    text-align: center;
+    font-family: Calibri;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 1%;
+    display: inline-block;
+    width: 33%;
+    vertical-align: middle;
+}
+.texte2{
+    border-right: 2px solid #F27438;
+    border-left: 2px solid #F27438;
+}
+/* Compétences */
+#competences{
+    position: relative;
+    bottom: 95%;
+}
+#liste-competences{
+   text-align: center;
+}
+#competences-web, #competences-transversales{
+    display: inline-block;
+    font-size: 1.2em;
+}
+#competences-web{
+    margin-right: 7%;
+    text-align: left;
+}
+#competences-transversales{
+    margin-left: 5%;
+    text-align: right;
+}
+#competences-web ul li, #competences-transversales ul li{
+    display: block;
+}
+#images-competences ul li img{
+    width: 75px;
+}
+#images-competences ul li{
+    margin: 1%;
+}
+#images-competences{
+    text-align: center;
+}
+/* Réalisations */
+#realisations{
+    position: relative;
+    bottom: 90%;
+}
+#blocs-realisations{
+    text-align: center;
+    vertical-align: middle;
+}
+.bloc{
+    background-color: #F9968B;
+    text-align: center;
+    border: 1px solid #F9968B;
+    border-radius: 10%;
+    display: inline-block;
+    color: #FFFFFF;
+    padding: 1%;
+    margin: 1%;
+    transition-property: opacity;
+    transition-duration: 1s;
+	transition-timing-function: ease;
+}
+.bloc:hover{
+    opacity: 0.6;
+}
+#lpc, #lede20{
+    margin-bottom: 2%;
+    border: 1px solid #26474E;
+    width: 90%;
+}
+#lokisalle{
+    margin-top: 2%;
+    border: 1px solid #26474E;
+    width: 90%;
+}
+.lien-realisation{
+    text-decoration: none;
+}
+.a-venir, .a-venir:hover{
+    opacity: 0.5;
+}
+/* Footer Contact */
+footer{
+    background-color: #26474E;
+    text-align: center;
+    height: 250px;
+    position: absolute;
+    width: 100%;
+    margin-top: 2%;
+}
+#barre-contact{
+    background-color: #F27438;
+    width: 25%;
+    display: inline-block;
+    height: 40px;
+    margin-top: 1%;
+}
+#barre-contact h3{
+    font-family: Calibri;
+    font-size: 1.5em;
+    color: #FFFFFF;
+    margin: 0;
+}
+#liste-contact ul li{
+    color: #FFFFFF;
+    margin: 3% 6% 0% 6%;
+}
+.icone{
+    font-size: 2em;
+}
+.texte-contact{
+    color: #FFFFFF;
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.btn-back-top a{
+    font-size: 3em;
+    color: #F27438;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 1000;
+}
+.CV{
+    text-align: center;
+}
+.CV a{
+    color: #26474E;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+/* Responsive */
+@media screen and (max-width: 900px){
+    .texte{
+        margin: auto;
+        padding: 1%;
+        display: block;
+        width: 90%;
+        border-right: 2px solid #F27438;
+        border-left: 2px solid #F27438;
+    }
+    footer{
+        height: 300px;
+    }
+}
+@media screen and (max-width: 750px){
+    #texte-banniere{
+        right: 8%;
+    }
+    footer{
+        height: 350px;
+    }
+}
+@media screen and (max-width: 550px){
+    #texte-banniere{
+        right: 1%;
+    }
+    footer{
+        height: 350px;
+    }
+    #rond1{
+        width: 100px;
+        left: 10;
+    }
+    .btn-back-top a{
+        font-size: 2.5em;
+        right: 15px;
+    }
+}
