@@ -102,9 +102,9 @@ nav ul li{
 #divphoto{
     position: absolute;
     left: 14%;
-    width: 180px;
+    width: 30vmin;
     top: 18%;
-    height: 180px;
+    height: 30vmin;
 
 }
 #photo{
